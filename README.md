@@ -22,6 +22,8 @@
 
 **Join our community for more events**
 
+[Join GDSC GECB](https://gdsc.community.dev/government-engineering-college-bilaspur/)
+
 [Discort](https://discord.gg/33WxKxrFbe)
 
 [Facebook](https://www.facebook.com/dscgecbsp)
@@ -32,6 +34,7 @@
 
 [Twitter](https://twitter.com/dscgecbsp)
 
+[YouTube] (https://youtube.com/channel/UC8rno_uNP6gifuX5TOI1ulg)
 
 ### Keep smiling 😄
 ### Happy coding 🥳
