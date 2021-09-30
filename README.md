@@ -1,4 +1,6 @@
 # Hacktoberfest-2021
+<img src='https://github.com/dscgecbsp/Hacktoberfest-2021/blob/main/Hacktoberfest_final_2color-06%20copy.png'/>
+
 ## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
 
 
@@ -34,7 +36,7 @@
 
 [Twitter](https://twitter.com/dscgecbsp)
 
-[YouTube] (https://youtube.com/channel/UC8rno_uNP6gifuX5TOI1ulg)
+[YouTube](https://youtube.com/channel/UC8rno_uNP6gifuX5TOI1ulg)
 
 ### Keep smiling 😄
 ### Happy coding 🥳
