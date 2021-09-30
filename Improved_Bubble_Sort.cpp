@@ -1,3 +1,4 @@
+//Program : To sort a given array using an improved version of bubble sort which has a better time complexity.
 #include<iostream>
 using namespace std;
 int main(void){
@@ -9,7 +10,7 @@ int main(void){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    bool flag=false;
+    bool flag=false; //a flag that is set if an exchange is made after an entire pass over the array
     for(int x=0; x<n; x++)
  {
      flag=false;
