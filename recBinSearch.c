@@ -1,3 +1,4 @@
+// Binary Search - Recursive Approach
 #include <stdio.h>
 void readArr(int[],int);
 int recBinSearch(int[],int,int,int);
