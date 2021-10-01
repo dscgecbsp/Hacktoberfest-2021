@@ -1,3 +1,4 @@
+// Linear Search - Recursive Approach
 #include <stdio.h>
 void readArr(int[],int);
 int recLinSearch(int[],int,int);
