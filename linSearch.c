@@ -1,3 +1,4 @@
+// Linear Search Program - Iterative Approach
 #include <stdio.h>
 void readArr(int[],int);
 int linSearch(int[],int,int);
