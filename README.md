@@ -1,5 +1,5 @@
 # Hacktoberfest-2021
-<img src='https://github.com/dscgecbsp/Hacktoberfest-2021/blob/main/Hacktoberfest_final_2color-06%20copy.png'/>
+<img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
 ## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
 
@@ -31,7 +31,7 @@
 
 [Join GDSC GECB](https://gdsc.community.dev/government-engineering-college-bilaspur/)
 
-[Discort](https://discord.gg/33WxKxrFbe)
+[Discord Server](https://discord.gg/33WxKxrFbe)
 
 [Facebook](https://www.facebook.com/dscgecbsp)
 
