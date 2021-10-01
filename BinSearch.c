@@ -1,3 +1,4 @@
+// Binary Search Program - Iterative
 #include <stdio.h>
 void readArr(int[],int);
 int BinSearch(int[],int,int,int);
