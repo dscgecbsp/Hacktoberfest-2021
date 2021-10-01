@@ -23,5 +23,6 @@ public class LargestRectangleInHistogram
             maxArea = Math.max(maxArea, currArea);
         }
         return maxArea;
+        
     }
 }
