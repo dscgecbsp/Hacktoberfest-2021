@@ -16,6 +16,11 @@
 
 **3) Add code according to your need with proper extension eg `bubble_sort.cpp` `linear_search.py`**
 
+# Some Code Guidelines:
+1. Variable name should be meaningful.
+2. Use comments in your code.
+3. Your Code must be pretty formated.
+
 ### After a valid pull request your code will be carefully reviewed and if it matches the rule then it will be accepted otherwise you need to generate a new file.
 
 ### End note.
