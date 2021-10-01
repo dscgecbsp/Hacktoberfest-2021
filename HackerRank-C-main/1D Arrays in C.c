@@ -1,3 +1,4 @@
+//creating and printing 1d array
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
