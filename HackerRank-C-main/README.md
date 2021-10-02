@@ -30,3 +30,4 @@ Follow me on **HackerRank** [Click here!](https://www.hackerrank.com/arwazkhan18
 | Variadic functions in C | Functions |[Link](https://www.hackerrank.com/challenges/variadic-functions-in-c)|
 | Boxes through a Tunnel | Structs and Enums |[Link](https://www.hackerrank.com/challenges/too-high-boxes)| 
 | Small Triangles, Large Triangles | Structs and Enums |[Link](https://www.hackerrank.com/challenges/small-triangles-large-triangles)| 
+| Array Reversal |[Link](https://www.hackerrank.com/challenges/reverse-array-c/submissions/code/183955903)|
