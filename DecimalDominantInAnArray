@@ -1,0 +1,44 @@
+#include<stdio.h>
+int a[20]={1,4,2,4,7,8,11,14,9,10,4,17,20,32,24,53,3,43,5,32};
+int main(){
+    int i,j,n=20,temp,freq,element;
+    for(i=0;i<n-1;i++)
+    {
+        for(j=0;j<n-1-i;j++)
+        {
+            if(a[j]>a[j+1])
+            {
+                temp=a[j];
+                a[j]=a[j+1];
+                a[j+1]=temp;
+            }
+        }
+    }
+    i=j=0;
+    while(j<n)
+    {
+        freq=0;
+        if(element==a[j])
+        {
+            j++;
+            continue;
+        }    
+        element=a[j];
+        for(i=0;i<n;i++)
+        {
+            if(a[i]==element)
+                freq++;
+        }
+        if(freq>(n/10))
+        {   
+            printf("Decimal dominant is :%d",a[j]);
+            return 0;
+        }
+        j++;
+    }
+            printf("Decimal dominant is not found");
+    return 0;
+}
+
+
+
