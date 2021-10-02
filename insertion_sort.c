@@ -6,7 +6,9 @@
 void insertion_sort(int arr[], int n)
 {
 	int i, key, j;
-	for (i = 1; i < n; i++) //loops from 2nd array element(arr[1]) to last array element(arr[n-1])
+	for (i = 1; i < n; i++) /*loops from 2nd array element(arr[1]) 
+								to last array element(arr[n-1]) to compare arr[i-1] & arr[i].
+								If arr[i-1] > arr[i], then swap them*/
     {
 		key = arr[i];
 		j = i - 1;
@@ -22,7 +24,7 @@ void insertion_sort(int arr[], int n)
 	}
 }
 
-// A function to print an array of size n
+// A function to print the sorted array of size n
 void print_array(int arr[], int n)
 {
 	int i;
@@ -32,21 +34,22 @@ void print_array(int arr[], int n)
 	printf("\n");
 }
 
-
+//main function
 int main()
 {
 	int n,i;
     printf("Enter the size of the array\n");
-    scanf("%d",&n);
+    scanf("%d",&n);//To take input the length of array from the user
 	int arr[n];
     printf("Enter the array elements\n");
+    //for loop to take input into the array
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
 
-	insertion_sort(arr, n);
-	print_array(arr, n);
+	insertion_sort(arr, n);//calling the insertion_sort() function with arguments arr and n(here the array is passed as address)
+	print_array(arr, n);//calling the print_array() function to print the array after sorting
 
 	return 0;
 }
