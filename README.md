@@ -1,7 +1,7 @@
 # Hacktoberfest-2021
 <img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
-## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
+## Hello 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Thus Event will start from 1st of October 2021 and will remain upto 31st October 2021.
 
 
 ### What you need to do in this event?
@@ -16,12 +16,12 @@
 
 **3) Add code according to your need with proper extension eg `bubble_sort.cpp` `linear_search.py`**
 
-# Some Code Guidelines:
+# Here are Some Code Guidelines:
 1. Variable name should be meaningful.
 2. Use comments in your code.
 3. Your Code must be pretty formated.
 
-### After a valid pull request your code will be carefully reviewed and if it matches the rule then it will be accepted otherwise you need to generate a new file.
+### After a valid pull request your code will be carefully reviewed and if it matches the rule then it will be accepted otherwise you need to generate a new file, so grab this opportunity and enjoy yourself.
 
 ### End note.
 
