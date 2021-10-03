@@ -1,11 +1,11 @@
 # Hacktoberfest-2021
 <img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
-## Hey 👋 everyone , With the fall of Autmn, *hacktoberfest* is back. It's the biggest beginner friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
+## Hey 👋 everyone , With the fall of Autumn, *hacktoberfest* is back. It's the biggest beginner friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
 
 
 ### What you need to do in this event?
-**You need to generate 4 valid pull request and want to contribute in opensource**
+**You need to generate 4 valid pull request and start your journey of contributing to opensource**
 
 ### let's discuss how you can contribute in *hacktoberfest 2021* 🙌
 
