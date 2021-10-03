@@ -1,8 +1,8 @@
-"""
+/*
 Selection sort. Compare each element and put the smallest element in the first.
 Repeat the above.
 Time complexity O(n^2)
-"""
+*/
 
 #include<stdio.h>
 
