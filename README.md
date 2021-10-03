@@ -1,7 +1,7 @@
 # Hacktoberfest-2021
 <img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
-## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
+## Hey 👋 everyone , With the fall of Autmn, *hacktoberfest* is back. It's the biggest beginner friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
 
 
 ### What you need to do in this event?
@@ -21,7 +21,7 @@
 2. Use comments in your code.
 3. Your Code must be pretty formated.
 
-### After a valid pull request your code will be carefully reviewed and if it matches the rule then it will be accepted otherwise you need to generate a new file.
+### After a valid pull request your code will be carefully reviewed and if it matches with the rules then it will be accepted otherwise you need to generate a new file.
 
 ### End note.
 
