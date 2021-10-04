@@ -1,4 +1,6 @@
-//contributed by Akshay1810 on 1/10/2001
+//enter the number 'n', till which Fibonacci series will be printed out in the terminal...
+//this code returns/prints Fibonacci series upto the n'th(inputted by user) term in the series...
+//written by pradipto karmakar, Kolkata.
 #include <iostream>
 using namespace std;
 
@@ -11,7 +13,7 @@ int checkprime(int n)
             return 1;
     return 0;
 }
-
+//the main calling function...
 int main()
 {
     int i, num;
