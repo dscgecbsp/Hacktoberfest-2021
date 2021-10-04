@@ -1,3 +1,15 @@
+/**
+ * PROBLEM STATEMNT: Given the head of a singly linked list, return true if it is a palindrome.
+ 
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode node1 = head, node2 = head;
