@@ -22,7 +22,9 @@ int main()
 // 	memset(t, -1, sizeof(t));
 // 	cout << LCS(x, y, x.length(), y.length()) << endl;
 
-  
+  	
+	int n = x.length();
+	int m = y.length();
   //bottom up
 	for (int i = 0; i <= n; i++)
 		for (int j = 0; j <= m; j++)
