@@ -33,28 +33,28 @@ public class Main
 
     int n = scn.nextInt ();
     if (n == 1)
-      {
+      {//finding length of string using length() function 
 	System.out.println ("the length of string 1 is:" + str1.length ());
 	System.out.println ("the length of string 2 is:" + str2.length ());
       }
     else if (n == 2)
-      {
+      {//Concatenation of strings using '+' operator
 	System.out.println ("your concanetated string is :" + str1 + " " +
 			    str2);
       }
     else if (n == 3)
-      {
+      {//finding substring of given string
 	System.out.println ("Enter number to find substring from :");
 	int x = scn.nextInt ();
 	System.out.println ("the substring is:" + str1.substring (x));
       }
     else if (n == 4)
-      {
+      {//comparing strings 
 	System.out.println
 	  ("The result of whether your strings are equal or not is " +
 	   str1.equals (str2));
       }
-      else if(n==5){
+      else if(n==5){//reversing the string using reverse() function 
           System.out.println ("the reversed string is:" + str1.reverse());
       }
   }
