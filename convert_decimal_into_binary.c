@@ -1,3 +1,6 @@
+//Problem : wanted to covert given decimal number in to its binary form
+//converting a decimal number in to binary
+
 #include <stdio.h>
 #include <stdlib.h>
 
