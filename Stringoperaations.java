@@ -1,4 +1,9 @@
-mport java.util.Scanner;
+/*
+Write a JAVA program to Perform string operations like accepting string from user,printing string as output
+finding length of string, reverse, concatenation and substring using StringBuilder class.
+*/
+
+import java.util.Scanner;
 public class Main
 {
   public static void main (String[]args)
