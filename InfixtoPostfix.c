@@ -1,3 +1,5 @@
+/*Infix to Postfix conversation is a code that converts the normal expression to Postfix(Operand first than Operator) And This is an Application of Stack*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
