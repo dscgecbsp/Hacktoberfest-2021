@@ -7,13 +7,13 @@
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
-    unsigned int n;
-    scanf("%u",&n);
-    unsigned  int a[n],sum=0;
+    int n;
+    scanf("%d",&n);
+    int a[n],sum=0;
     for (int i=0; i<n; i++) {
-        scanf("%u",&a[i]);
+        scanf("%d",&a[i]);
         sum+=a[i];
     }
-    printf("%u",sum);  
+    printf("%d",sum);  
     return 0;
 }
