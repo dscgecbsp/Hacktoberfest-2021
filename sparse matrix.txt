@@ -235,7 +235,7 @@ void ftrans(struct spar x[20],struct spar y[20])
 }
 
 
-Output:
+/*Output:
 
 1. Create
 2. Display
@@ -324,4 +324,4 @@ No      Row     Col     Value
 No      Row     Col     Value
 1       0       0       1
 2       1       0       2
-3       2       0       3
+3       2       0       3*/
