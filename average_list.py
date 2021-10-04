@@ -1,5 +1,5 @@
 
-# Problem: Calculate average of numbers in the list from user input.
+# Problem statement: Calculate the average of numbers in the list from user input. Program takes input from user until user enters 'done'. 
 
 numlist = list()                        # create an empty list
 while (True):
