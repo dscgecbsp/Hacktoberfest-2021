@@ -1,3 +1,6 @@
+//Accept  conventional  matrix  and  convert  it  into  sparse  matrix  using  structure  and  perform  
+//addition, simple and fast transpose 
+
 #include<stdio.h>
 
 struct spar{
