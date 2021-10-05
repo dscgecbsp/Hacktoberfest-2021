@@ -1,3 +1,5 @@
+/*Program to demonstrate the heap sort algorithm to sort an array using max heap*/
+
 #include<stdio.h>
 #include<math.h>
 main()
