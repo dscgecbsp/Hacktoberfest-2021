@@ -1,3 +1,5 @@
+# bubble sort is a better algorithm for sorting in few cases so, added this.
+
 def bubble_sort(list1):  
     for i in range(len(list1)-1):  
         for j in range(len(list1)-1):  
