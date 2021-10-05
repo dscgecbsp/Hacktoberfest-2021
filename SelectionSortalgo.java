@@ -1,4 +1,4 @@
-//selectionsort algorithm
+//selectionsort algorithm-(numbers are sort with selection sort)
 package simplesortingapp;
 
 public class Simplesortingapp {
