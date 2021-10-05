@@ -1,3 +1,5 @@
+// C implementation of merge sort
+// Divide array into 2 sub arrays
 #include <stdio.h>
 #include <stdlib.h>
   
