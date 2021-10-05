@@ -1,4 +1,4 @@
- 
+//selectionsort algorithm
 package simplesortingapp;
 
 public class Simplesortingapp {
