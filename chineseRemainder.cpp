@@ -1,9 +1,8 @@
 /*
 
 Maitreya Kanitkar
-BE-IT   8084
 
-ICS Assignment 1 : CRT Algorithm
+Develop and program in C++  based on number theory such as Chinese remainder.
 
 */
 
