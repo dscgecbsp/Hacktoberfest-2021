@@ -1,3 +1,6 @@
+//Rainwater harvesting is a stack based problem in which we can calculate how much it can trap after raining 
+
+
 #include "bits/stdc++.h"
 using namespace std;
 
