@@ -1,7 +1,6 @@
 /*
 
 Maitreya Kanitkar
-BE-IT   8084
 
 implement RSA algorithm for key generation and cipher verification.
 
