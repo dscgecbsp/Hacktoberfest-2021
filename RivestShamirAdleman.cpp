@@ -3,7 +3,7 @@
 Maitreya Kanitkar
 BE-IT   8084
 
-ICS Assignment 2 : RSA Algorithm
+implement RSA algorithm for key generation and cipher verification.
 
 */
 
