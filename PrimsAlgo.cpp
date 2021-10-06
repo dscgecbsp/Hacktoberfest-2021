@@ -1,3 +1,5 @@
+//Code for Prim's Algorithm for getting graph cost in C++
+
 #include <bits/stdc++.h>
 using namespace std;
 
