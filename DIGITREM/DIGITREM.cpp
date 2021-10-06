@@ -1,3 +1,9 @@
+
+//You are given an integer N and a digit D. Find the minimum non-negetive integer you should add to N.
+//such that the final value of N does not contain the digit D.
+
+Input Format
+
 #include <bits/stdc++.h>
 
 using namespace std;
