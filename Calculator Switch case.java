@@ -6,11 +6,19 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Enter first number ");
-		int a = sc.nextInt();
-		
-		System.out.println("Enter second number  ");
-		int b = sc.nextInt();
+		int a = 0 , b = 0;
+		try {
+			System.out.println("Enter first number ");
+			a = sc.nextInt();			
+			System.out.println("Enter second number  ");
+			b = sc.nextInt();
+			
+		}
+		catch(Exception e){
+			System.out.println("Error!! Enter valid number !!");
+			System.exit(0);
+			
+		}
 		
 		System.out.println("Enter the operator ");
 		sc.nextLine();
