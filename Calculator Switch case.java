@@ -6,7 +6,7 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Enter number ");
+		System.out.println("Enter first number ");
 		int a = sc.nextInt();
 		
 		System.out.println("Enter second number  ");
@@ -19,16 +19,25 @@ public class Calculator {
 		
 		switch (c) {
 		case '+': result = a+b;
+		          System.out.println(a+ " + " + b + " = " + result );
 		  break ;
 		case '-': result = a-b;
+		          System.out.println(a+ " - " + b + " = " + result );
 		 break;
 		case '*': result = a*b;
+				  System.out.println(a+ " * " + b + " = " + result );
 		 break ;
-		case '/': result = a/b;
-	    	break ;
+		case '/': 
+				  if (b==0) {
+					  System.out.println("Undefined");
+					  break;
+				  }
+				  result = a/b;
+				  System.out.println(a+ " / " + b + " = " + result );
+	     break ;
 		default : System.out.println(" invalid choice ");
 		}
-	   System.out.println(result+"ans");
+	   
 		}
 
 	}
