@@ -87,8 +87,13 @@ d=Canvas(root,bg='white',width="700",height="500")
 d.place(x=0,y=0)
 
 #=------------------------------------------------
-
-#developer =Label(root,text="Developed by - M.B. Sai Aditya",font=("CALIBRI",16),fg="blue").place(x=420,y=2)
+=======
+# This function divides two numbers
+def divide(x, y):
+    if(y==0):
+        return "ERR cannot divide by 0"
+    else:
+      return x / y
 
 #entry box----------------
 q=Entry(root,width=40,bd=6,justify=RIGHT,bg="#e6e6fa")
