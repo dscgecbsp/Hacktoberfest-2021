@@ -1,3 +1,9 @@
+"""
+Author: Kanwar Jot Parkash Singh
+Date: 10/10/21
+Name of Project: Mad-Libs-Generator
+"""
+
 import json
 
 # creating a dictionary to inform user of type of words to be entered as numbers(keys) correspond in stories
