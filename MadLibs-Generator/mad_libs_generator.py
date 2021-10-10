@@ -21,14 +21,14 @@ data = json.loads(f.read())
 f.close()
 
 # asking user's choice of story
-story_num = input("Pick a story from 1 to 5")
+story_num = input("Pick a story from 1 to 5: ")
 
 story = (data["stories"])[story_num]
 
 # loop over the story to take user input for words
 for i in story:
     if i.isdigit():
-        input_words.append(input("Enter a " + type_of_words[i]))
+        input_words.append(input("Enter a " + type_of_words[i] + ": "))
 
 # introducing count variable to access words from "input_words" list
 count = 0
