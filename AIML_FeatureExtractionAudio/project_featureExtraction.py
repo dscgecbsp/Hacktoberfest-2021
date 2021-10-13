@@ -1,7 +1,14 @@
 # Feature Extraction of Audio in Python
 
-# Loading an audio
+#Import Libraries
 import librosa                                         # used for audio related stuffs
+import matplotlib.pyplot as plt
+import librosa.display
+import IPython.display as ipd
+import sklearn
+from jedi.api.refactoring import inline
+
+# Loading an audio
 audio_path = 'my_audio.wav'
 x , sr = librosa.load(audio_path)
 print(type(x), type(sr))
@@ -9,13 +16,10 @@ librosa.load(audio_path, sr=44100)
 
 
 # Playing an audio
-import IPython.display as ipd
 ipd.Audio(audio_path)                                  # plays the music
 
 
 # display waveform
-import matplotlib.pyplot as plt
-import librosa.display
 plt.figure(figsize=(5,1))
 plt.title("Waveform of Given Input")
 librosa.display.waveplot(x, sr=sr)
@@ -59,8 +63,6 @@ summ = (sum(zero_crossings))
 print("Count of zero Crossing : ",summ)
 
 
-import sklearn
-from jedi.api.refactoring import inline
 spectral_centroids = librosa.feature.spectral_centroid(x, sr=sr)[0]
 spectral_centroids.shape
 
