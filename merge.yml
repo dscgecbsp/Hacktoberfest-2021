@@ -1,2 +1,0 @@
-- name: Auto-Merge Pull Request
-  uses: reitermarkus/automerge@v1.5.2
