@@ -1,0 +1,115 @@
+/////////Task 1: Clean your training data///////////////////////
+
+In the Cloud Console, navigate to Menu > BigQuery.
+Click on More > Query settings under the Query Editor.
+Select Set a destination table for query results under Destination; Enter taxi_training_data as the Table name
+And For Destination table write preference ->Overwrite table
+Click Save
+Run the following SQL query
+
+Select
+  pickup_datetime,
+  pickup_longitude AS pickuplon,
+  pickup_latitude AS pickuplat,
+  dropoff_longitude AS dropofflon,
+  dropoff_latitude AS dropofflat,
+  passenger_count AS passengers,
+  ( tolls_amount + fare_amount ) AS fare_amount
+FROM
+  `taxirides.historical_taxi_rides_raw`
+WHERE
+  trip_distance > 0
+  AND fare_amount >= 2.5
+  AND pickup_longitude > -75
+  AND pickup_longitude < -73
+  AND dropoff_longitude > -75
+  AND dropoff_longitude < -73
+  AND pickup_latitude > 40
+  AND pickup_latitude < 42
+  AND dropoff_latitude > 40
+  AND dropoff_latitude < 42
+  AND passenger_count > 0
+  AND RAND() < 999999 / 1031673361
+  
+  ****************************Task 2: Create a BQML model called taxirides.fare_model____________________------------------
+  
+  
+  CREATE or REPLACE MODEL
+  taxirides.fare_model OPTIONS (model_type='linear_reg',
+    labels=['fare_amount']) AS
+WITH
+  taxitrips AS (
+  SELECT
+    *,
+    ST_Distance(ST_GeogPoint(pickuplon, pickuplat), ST_GeogPoint(dropofflon, dropofflat)) AS euclidean
+  FROM
+    `taxirides.taxi_training_data` )
+  SELECT
+    *
+  FROM
+    taxitrips
+    
+    
+Click Run and the machine learning process will take about 2 minutes.
+
+Evaluate model performance
+After the training is completed, you can evaluate the Root Mean Square Error (RMSE) of the prediction model using the following query.
+
+
+#standardSQL
+SELECT
+  SQRT(mean_squared_error) AS rmse
+FROM
+  ML.EVALUATE(MODEL taxirides.fare_model,
+    (
+    WITH
+      taxitrips AS (
+      SELECT
+        *,
+        ST_Distance(ST_GeogPoint(pickuplon, pickuplat), ST_GeogPoint(dropofflon, dropofflat)) AS euclidean
+      FROM
+        `taxirides.taxi_training_data` )
+      SELECT
+        *
+      FROM
+        taxitrips ))
+              
+ 
+ 
+ ---------------------------************Task 3: Perform a batch prediction on new data************************-----------------------------
+ 
+ 
+ Select Set a destination table for query results under Destination; 
+ Enter 2015_fare_amount_predictions as the Table name
+ And For Destination table write preference ->Overwrite table
+ 
+ Click Save
+Run the following SQL query.
+
+#standardSQL
+SELECT
+  *
+FROM
+  ML.PREDICT(MODEL `taxirides.fare_model`,
+    (
+    WITH
+      taxitrips AS (
+      SELECT
+        *,
+        ST_Distance(ST_GeogPoint(pickuplon, pickuplat)   , ST_GeogPoint(dropofflon, dropofflat)) AS    euclidean
+      FROM
+        `taxirides.report_prediction_data` )
+    SELECT
+      *
+    FROM
+      taxitrips ))
+      
+      
+      
+      Thank You ALL Done 
+ 
+ 
+
+  
+  
+  
