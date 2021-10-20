@@ -1,0 +1,58 @@
+Your challenge
+You are now asked to help a newly formed development team with some of their initial work on a new project around storing and organizing photographs, called memories. You have been asked to assist the memories team with initial configuration for their application development environment; you receive the following request to complete the following tasks:
+
+Create a bucket for storing the photographs.
+Create a Pub/Sub topic that will be used by a Cloud Function you create.
+Create a Cloud Function.
+Remove the previous cloud engineer’s access from the memories project.
+Some Jooli Inc. standards you should follow:
+
+Create all resources in the us-east1 region and us-east1-b zone, unless otherwise directed.
+Use the project VPCs.
+Naming is normally team-resource, e.g. an instance could be named kraken-webserver1
+Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use f1-micro for small Linux VMs and n1-standard-1 for Windows or other applications such as Kubernetes nodes.
+Solving tasks
+
+************************************************
+Task 1: Create a bucket
+Navigation menu > STORAGE > Storage > Create Bucket
+Name your bucket > Enter GCP Project ID > Continue
+Choose where to store your data > Region: us-east1 > Continue
+Use default for the remaining
+Create
+
+*****************************************
+
+Task 2: Create a Pub/Sub topic
+Navigation menu > BIG DATA > Pub/Sub
+Create Topic > Name: project id > Create Topic
+
+***********************************
+Task 3: Create the thumbnail Cloud Function
+Navigation menu > COMPUTE > Cloud Functions > Create Function
+
+Use the following config:
+
+Name: default Region: us-east1 Trigger: Cloud Storage Event type: Finalize/Create Bucket: BROWSE > Select the qwiklabs bucket
+
+Remaining default > Next
+
+Runtime: Node.js 10 Entry point: thumbnail
+
+Add the code appropiately
+
+Download the image from URL
+
+Navigation menu > STORAGE > Storage > Select your bucket > Upload files
+
+Refresh bucket
+
+************************************************************************************
+Task 4: Remove the previous cloud engineer
+Navigation menu > IAM & Admin
+
+
+
+
+&**********************&&&&&&&&&&&&&&&********************&&&&&&&&&&&&&&&*********&&&&&&&&&&&&&&&&&**&&&&&&&&&&&&&&&&&&&&
+Search for the "Username 2" > Edit > Delete Role
