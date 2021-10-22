@@ -6,27 +6,45 @@
 // 1: Iterate from arr[1] to arr[n] over the array. 
 // 2: Compare the current element (key) to its predecessor. 
 // 3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
-import java.util.*;
-public class insertionSort {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size of the array");
-        int len=sc.nextInt();
-        int []arr=new int[len];
-        for(int i=0;i<len;i++){
-          System.out.println("Enter the value of the element at position "+i);
-          arr[i]=sc.nextInt();
-        }
-        for(int i=1;i<arr.length;i++){
-            int temp=arr[i],j=i;
-            while(j>0 && arr[j-1]>temp){
-                arr[j]=arr[j-1];
-                j--;
-            }
-            arr[j]=temp;
-        }
-        for(int element:arr){
-            System.out.println(element+" ");
-        }
-    }
-}
+// Java program for implementation of Insertion Sort
+class InsertionSort {
+	/*Function to sort array using insertion sort*/
+	void sort(int arr[])
+	{
+		int n = arr.length;
+		for (int i = 1; i < n; ++i) {
+			int key = arr[i];
+			int j = i - 1;
+
+			/* Move elements of arr[0..i-1], that are
+			greater than key, to one position ahead
+			of their current position */
+			while (j >= 0 && arr[j] > key) {
+				arr[j + 1] = arr[j];
+				j = j - 1;
+			}
+			arr[j + 1] = key;
+		}
+	}
+
+	/* A utility function to print array of size n*/
+	static void printArray(int arr[])
+	{
+		int n = arr.length;
+		for (int i = 0; i < n; ++i)
+			System.out.print(arr[i] + " ");
+
+		System.out.println();
+	}
+
+	// Driver method
+	public static void main(String args[])
+	{
+		int arr[] = { 12, 11, 13, 5, 6 };
+
+		InsertionSort ob = new InsertionSort();
+		ob.sort(arr);
+
+		printArray(arr);
+	}
+} /* This code is contributed by Arpit Tripathi. */
