@@ -1,48 +1,45 @@
-// Problem statement
-/*
-Anagram--> The dictionary meaning of the word anagram is a word or phrase formed by rearranging the letters.
-eg: HEART = EARTH
-Approach:
-First check the length, if not equal then discard it otherwise apply logic.
-Pick a character from one list and check it with other if it is not visited then add it to list and check accordingly.
-*/
 
-import java.util.*;
-public class Anagrams {
+import java.io.*;
+import java.util.Arrays;
+import java.util.Collections;
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+class GFG {
 
-		String a = sc.next();  // Add first string
-		String b = sc.next();  // Add second string
-		boolean isAnagram = false;
-		boolean visited[] = new boolean[b.length()];
+	static boolean areAnagram(char[] str1, char[] str2)
+	{
+		int n1 = str1.length;
+		int n2 = str2.length;
 
-		if(a.length() == b.length()) {
+		
+		if (n1 != n2)
+			return false;
 
-		for(int i = 0; i < a.length(); i++)
-		{
-			char c = a.charAt(i);  // Pick a character from a
-			isAnagram = false;
-			for(int j = 0; j < b.length(); j++)
-			{
-				if(b.charAt(j) == c && !visited[j])
-				{
-					visited[j] = true;
-					isAnagram = true;
-					break;
-				}
-			}
-			if(!isAnagram)
-				break;
-		}
-		} 
-		if(isAnagram)
-			System.out.println("anagram");
-		else
-			System.out.println("not anagram");
+		Arrays.sort(str1);
+		Arrays.sort(str2);
 
-            sc.close();
+		
+		for (int i = 0; i < n1; i++)
+			if (str1[i] != str2[i])
+				return false;
+
+		return true;
 	}
 
+	/* Driver Code*/
+	public static void main(String args[])
+	{
+		char str1[] = { 't', 'e', 's', 't' };
+		char str2[] = { 't', 't', 'e', 'w' };
+	
+		// Function Call
+		if (areAnagram(str1, str2))
+			System.out.println("The two strings are"
+							+ " anagram of each other");
+		else
+			System.out.println("The two strings are not"
+							+ " anagram of each other");
+	}
 }
+
+
+
