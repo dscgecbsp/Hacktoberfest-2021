@@ -35,5 +35,5 @@ int main() {
   cin>>x;
   int result = search(array, n, x);
 
-  (result == -1) ? cout << "Element not found" : cout << "Element found at index: " << result;
+  (result == -1) ? cout << "Element not found" : cout << "Element found at index: " << result; // it will tell whether the element is found or not
 }
