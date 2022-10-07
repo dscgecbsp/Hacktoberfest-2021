@@ -1,7 +1,7 @@
-# Hacktoberfest-2021
+# Hacktoberfest-2022
 <img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
-## Hello 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Thus Event will start from 1st of October 2021 and will remain upto 31st October 2021.
+## Hello 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Thus Event will start from 1st of October 2022 and will remain upto 31st October 20212
 
 
 ### What you need to do in this event?
