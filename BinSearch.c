@@ -23,16 +23,16 @@ void readArr(int A[],int n)
     for(i=0;i<n;i++)
         scanf("%d",&A[i]);
 }
-int BinSearch(int A[],int lwr,int upr,int key)
+int BinSearch(int A[],int low,int upr,int key)
 {
     int mid;
-    while(lwr<=upr)
+    while(low<=upr)
     {
-        mid=(lwr+upr)/2;
+        mid=(low+upr)/2;
         if(A[mid]==key)
             return mid;
         else if(A[mid]<key)
-            lwr=mid+1;
+            low=mid+1;
         else
             upr=mid-1;
     }
