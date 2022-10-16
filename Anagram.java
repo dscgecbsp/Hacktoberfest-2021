@@ -22,7 +22,7 @@ public class Anagrams {
 
 		for(int i = 0; i < a.length(); i++)
 		{
-			char c = a.charAt(i);  // Pick a character from a
+			char c= a.charAt(i);  // Pick a character from a
 			isAnagram = false;
 			for(int j = 0; j < b.length(); j++)
 			{
