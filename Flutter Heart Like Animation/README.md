@@ -1,16 +1,17 @@
-# flutteranimations
+# Flutter Heart Like Animation
 
-A new Flutter project.
+<br>
+ 
 
-## Getting Started
+Heart-Like Animation in Flutter.
+<br>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Preview
+<img src="https://user-images.githubusercontent.com/62079355/197845752-38f44642-00d0-4b26-94b9-d6d272f8da5b.gif" height=600, width=290>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br>
+
+---
