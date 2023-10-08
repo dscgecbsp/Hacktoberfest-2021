@@ -1,8 +1,15 @@
+<!DOCTYPE html>
+</html>
+</head>
+<title> Read me on Hacktoberfest</title></head>
+<BODY>
 # Hacktoberfest-2021
 <img src='https://github.com/idomendrasahu/Hacktoberfest-2021/blob/main/unnamed.png'/>
 
-## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021.
+## Hey 👋 everyone , *hacktoberfest* is back with biggest beginners friendly opensource event. Event will start from 1st of October and will remain upto 31st October 2021. Hacktoberfest lets you be more clearer in coding and offers you a variety of options. 
 
+Join Hacktoberfest now!!!
+See the information below for a better idea.
 
 ### What you need to do in this event?
 **You need to generate 4 valid pull request and want to contribute in opensource**
@@ -45,3 +52,5 @@
 
 ### Keep smiling 😄
 ### Happy coding 🥳
+</BODY>
+</html>
